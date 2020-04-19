@@ -3,8 +3,11 @@ name = "brine"
 version = "0.1.0"
 authors = ["Akhil Velagapudi <akhilvelagapudi@gmail.com>"]
 edition = "2018"
+description = "Simple crypto backed by libsodium."
 repository = "https://github.com/akhilles/brine.git"
 readme = "README.md"
+keywords = ["crypto", "nacl", "libsodium"]
+categories = ["no-std", "cryptography"]
 license = "MIT OR Apache-2.0"
 exclude = [
   "libsodium/**",
